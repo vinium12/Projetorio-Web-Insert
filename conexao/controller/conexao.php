@@ -1,13 +1,16 @@
 <?php
+
+//Criação da classe Conexao
 class Conexao {
-    // Propriedades privadas para armazenar as informações de conexão
+
+    //Inicialização de atributos de tipo privado para armazenar as informações de conexão
     private $host = "localhost";
     private $usuario = "root";
     private $senha = "";
     private $banco = "exemplo_aula_pw";
     private $conexao;
 
-    // Construtor da classe
+    // Método construtor da classe
     public function __construct() {
         // Cria uma nova conexão com o banco de dados MySQL
         $this->conexao = new mysqli($this->host, $this->usuario, $this->senha, $this->banco);

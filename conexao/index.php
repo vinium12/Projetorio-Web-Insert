@@ -14,7 +14,7 @@
         <!-- Formulário de cadastro -->
         <!-- O método POST envia os dados do formulário ao servidor -->
         <!-- A ação define para onde os dados serão enviados -->
-        <form method="POST" action="controller/pessoaController.php">
+        <form method="POST" action="controller/pessoaController.php?acao=inserir">
             <!-- Campo de entrada para o nome -->
             <div class="form-group">
                 <label for="nome">Nome:</label>

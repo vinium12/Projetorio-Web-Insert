@@ -1,7 +1,8 @@
 <?php
-// Requer o arquivo de conexão com o banco de dados
+// Incluindo o arquivo conexão, que conecta com o banco de dados
 require_once '../controller/conexao.php';
 
+//Inicio da classe Pessoa
 class Pessoa {
     // Propriedades privadas da classe Pessoa
     private $id;
